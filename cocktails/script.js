@@ -1,6 +1,6 @@
 
 const myList = document.getElementById('ingredients');
-const myRequest = new Request('assets/data.json');
+const myRequest = new Request('cocktails/assets/data.json');
 var data = null;
 
 fetch(myRequest)
